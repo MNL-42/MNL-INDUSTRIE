@@ -194,3 +194,41 @@ footer{border-color:var(--line);color:#a0aa9d}.foot b{color:#f3efe5}
 .modal-box{border-radius:24px;transition:border-radius .35s var(--mnl-ease),transform .35s var(--mnl-ease)}.modal.show .modal-box{animation:modal-enter .38s var(--mnl-ease)}@keyframes modal-enter{from{transform:translateY(18px) scale(.97);border-radius:36px}to{transform:translateY(0) scale(1);border-radius:24px}}
 @media(max-width:760px){.flow-track{grid-template-columns:1fr;gap:10px}.flow-node{min-height:110px;padding:18px}.hero:after{width:80vw;right:-28%;top:24%;opacity:.65}.bottom-dock{gap:2px}.bottom-dock a{padding:7px 4px}.contact-link{font-size:8px!important}}
 @media(prefers-reduced-motion:reduce){.hero:after{animation:none}.welcome-note{transition:none}.flow-node,.bottom-dock a,.product,.division{transition:none}}
+
+/* MNL 2026 — palette éditoriale et introduction immersive */
+:root{--bg:#111512;--panel:#1b211d;--panel2:#252c27;--line:rgba(226,220,205,.16);--blue:#9eac9f;--cyan:#d1b08d;--white:#f3f0e8;--muted:#a7aaa0;--gold:#c9a77f;--ease:cubic-bezier(.2,.75,.25,1)}
+body{background:#111512;color:#f3f0e8}
+body:before{opacity:.09;background-image:linear-gradient(rgba(226,220,205,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(226,220,205,.08) 1px,transparent 1px)}
+header,.site-header{background:rgba(17,21,18,.82);border-color:#e6dfd022}
+header.header-scrolled{background:rgba(17,21,18,.96);border-color:#d1b08d44}
+.logo-mark{border-color:#c9a77f;color:#e4c7a5;box-shadow:0 0 24px #c9a77f20}
+.navlinks a:hover,.navlinks a.active,.eyebrow,.kicker,.division .number{color:#d6b18b}
+.btn.primary{background:linear-gradient(110deg,#9b795d,#c9a77f);color:#171b17;box-shadow:0 8px 30px #c9a77f24}
+.hero{background:#141915}.hero-bg{filter:saturate(.72) sepia(.12)}
+.hero h1 span{-webkit-text-stroke-color:#e4dfd3}
+.division{background:linear-gradient(145deg,#202822aa,#141a16cc)}
+.division:hover{background:linear-gradient(145deg,#29352c,#171e19);border-color:#c9a77f55}
+.division:after{background:linear-gradient(90deg,#c9a77f,#e4d5bd)}
+.division .number{color:#d2b18f}
+.division:hover .division-symbol{color:#d6b18b;filter:drop-shadow(0 0 10px #d6b18b35)}
+.product-tools input,.product-tools select{background:#202720;border-color:#e5e9dc30}
+.product-tools input:focus,.product-tools select:focus{outline-color:#c9a77f;border-color:#c9a77f}
+#scrollProgress{background:#c9a77f;box-shadow:0 0 14px #c9a77f66}
+.welcome-note{display:none}
+.mnl-intro{position:fixed;inset:0;z-index:300;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 50% 48%,#303a31 0%,#1b231d 38%,#0e120f 100%);color:#f3f0e8;opacity:1;transition:opacity .85s ease,visibility .85s}
+.mnl-intro:before,.mnl-intro:after{content:"";position:absolute;inset:7%;border:1px solid #d6c4a322;pointer-events:none}
+.mnl-intro:after{inset:12%;border-color:#d6c4a311}
+.intro-grain{position:absolute;inset:0;opacity:.12;background-image:radial-gradient(#fff .55px,transparent .7px);background-size:5px 5px}
+.intro-core{position:relative;text-align:center;display:flex;align-items:center;flex-direction:column;gap:17px;opacity:0;transform:translateY(20px) scale(.97);transition:opacity .8s ease,transform 1s cubic-bezier(.2,.75,.25,1)}
+.mnl-intro.intro-start .intro-core{opacity:1;transform:translateY(0) scale(1)}
+.intro-symbol{width:66px;height:66px;display:grid;place-items:center;border:1px solid #d6b18b;color:#e8d2b5;font:700 38px Georgia,serif;box-shadow:0 0 55px #d6b18b22;margin-bottom:12px}
+.intro-overline,.intro-caption{font-size:9px;letter-spacing:.32em;color:#c4c6b8}
+.intro-title{font:700 clamp(36px,8vw,76px)/.95 'Barlow Condensed',sans-serif;letter-spacing:.12em}
+.intro-title span{color:#d6b18b}
+.intro-subtitle{font:italic 18px Georgia,serif;color:#d6d0c2}
+.intro-rule{width:min(260px,55vw);height:1px;background:#ffffff22;overflow:hidden;margin:5px 0}
+.intro-rule i{display:block;width:100%;height:100%;background:#d6b18b;transform:scaleX(0);transform-origin:left;transition:transform 2.2s ease .4s}
+.intro-start .intro-rule i{transform:scaleX(1)}
+.intro-leave{opacity:0;visibility:hidden}.intro-leave .intro-core{transform:translateY(-14px) scale(1.02);opacity:0}
+body.intro-active{overflow:hidden}
+@media(prefers-reduced-motion:reduce){.intro-core,.intro-rule i,.mnl-intro{transition:none!important}}

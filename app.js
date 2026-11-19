@@ -4,16 +4,16 @@
   "use strict";
 
   const divisions = [
-    ["MNL Automotive", "Mobilité terrestre", "car"],
-    ["MNL Aerospace", "Aéronautique et espace", "plane"],
-    ["MNL Digital", "Informatique et électronique", "chip"],
-    ["MNL Wearables", "Technologies portables", "glasses"],
-    ["MNL Robotics", "Robotique et automatisation", "robot"],
-    ["MNL Energy", "Énergie et stockage", "energy"],
-    ["MNL Aviation Systems", "Systèmes aériens", "radar"],
-    ["MNL Living", "Habitat intelligent", "home"],
-    ["MNL Semiconductor", "Composants avancés", "microchip"],
-    ["MNL Intelligence", "Intelligence artificielle", "neural"]
+    ["MNL Automobile", "Mobilité terrestre", "car"],
+    ["MNL Aérospatiale", "Aéronautique et espace", "plane"],
+    ["MNL Numérique", "Informatique et électronique", "chip"],
+    ["MNL Technologies portables", "Technologies portables", "glasses"],
+    ["MNL Robotique", "Robotique et automatisation", "robot"],
+    ["MNL Énergie", "Énergie et stockage", "energy"],
+    ["MNL Systèmes aériens", "Systèmes aériens", "radar"],
+    ["MNL Habitat intelligent", "Habitat intelligent", "home"],
+    ["MNL Microtechnologie", "Composants avancés", "microchip"],
+    ["MNL Intelligence artificielle", "Intelligence artificielle artificielle", "neural"]
   ];
 
   const icons = {
@@ -45,7 +45,7 @@
         <div class="division-topline"><span class="number">DIVISION / ${(index + 1).toString().padStart(2, "0")}</span><span class="division-index">0${index + 1}</span></div>
         <div class="division-symbol">${svgIcon(icon)}</div>
         <h3>${name}</h3><p>${subtitle}</p>
-        <span class="division-link" aria-hidden="true">EXPLORE <b>↗</b></span>`;
+        <span class="division-link" aria-hidden="true">DÉCOUVRIR <b>↗</b></span>`;
       host.append(card);
     });
   }
@@ -58,14 +58,14 @@
     card.setAttribute("aria-label", `Découvrir ${product.name}`);
     card.innerHTML = `
       <div class="product-image">
-        <img src="assets/${product.image}" alt="${product.name} — rendu de concept" loading="lazy">
+        <img src="${product.image}" alt="${product.name} — rendu de concept" loading="lazy">
         <span class="product-number">MNL / ${String(index + 1).padStart(2, "0")}</span>
-        <span class="product-view">VIEW CONCEPT <b>↗</b></span>
+        <span class="product-view">VOIR LE CONCEPT <b>↗</b></span>
       </div>
       <div class="product-info">
         <small>${product.division} · ${product.tag}</small>
         <h3>${product.name}</h3><p>${product.type}</p>
-        <div class="product-bottom"><span class="concept">VIRTUAL CONCEPT</span><span class="arrow">↗</span></div>
+        <div class="product-bottom"><span class="concept">CONCEPT VIRTUEL</span><span class="arrow">↗</span></div>
       </div>`;
     const open = () => openProduct(product);
     card.addEventListener("click", open);
@@ -95,7 +95,7 @@
 
   function openProduct(product) {
     if (!$("modal")) return;
-    $("modalImg").src = `assets/${product.image}`;
+    $("modalImg").src = `${product.image}`;
     $("modalImg").alt = product.name;
     $("modalDivision").textContent = `${product.division} / MNL INDUSTRIE`;
     $("modalTitle").textContent = product.name;

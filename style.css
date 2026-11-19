@@ -26,7 +26,7 @@ header.header-scrolled{background:rgba(5,8,14,.95);border-color:rgba(40,200,255,
 .nav-action:hover{background:#0b8bca22;border-color:var(--cyan);box-shadow:0 0 25px #00aaff20}
 .hamb{display:none;background:none;color:white;border:1px solid var(--line);padding:9px 12px}
 .hero{height:min(850px,100vh);min-height:650px;position:relative;display:flex;align-items:center;overflow:hidden;background:#060b13}
-.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,#05080ef5 0%,#05080ed9 38%,#05080e20 100%),linear-gradient(0deg,#05080e 0%,transparent 40%),url('assets/hero-car.webp') center 55%/cover no-repeat;transform:scale(1.04);animation:heroReveal 1.4s var(--ease) both,heroDrift 22s ease-in-out infinite alternate}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,#05080ef5 0%,#05080ed9 38%,#05080e20 100%),linear-gradient(0deg,#05080e 0%,transparent 40%),url('hero-car.webp') center 55%/cover no-repeat;transform:scale(1.04);animation:heroReveal 1.4s var(--ease) both,heroDrift 22s ease-in-out infinite alternate}
 .hero:before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(115deg,transparent 45%,#007dff14 100%);opacity:.9}
 .hero:after{content:"";position:absolute;z-index:1;inset:0;pointer-events:none;background:linear-gradient(90deg,transparent 0 49.9%,#75caff0b 50%,transparent 50.1%),linear-gradient(0deg,transparent 0 49.9%,#75caff08 50%,transparent 50.1%)}
 .hero-inner{position:relative;z-index:2;padding-top:75px;max-width:760px;animation:contentIn .9s .15s var(--ease) both}
@@ -131,7 +131,7 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:#75879a;font-size:9
  .navlinks{display:none;position:absolute;top:67px;left:0;right:0;padding:16px 22px 22px;background:rgba(5,12,21,.98);flex-direction:column;gap:5px;border-bottom:1px solid var(--line)}
  .navlinks.open{display:flex;animation:contentIn .25s ease both}.navlinks a{padding:13px 0}
  .hero{height:790px;min-height:680px;max-height:100svh}
- .hero-bg{background-position:58% center;background-image:linear-gradient(90deg,#05080ef2,#05080e80),linear-gradient(0deg,#05080e,transparent 55%),url('assets/hero-car.webp')}
+ .hero-bg{background-position:58% center;background-image:linear-gradient(90deg,#05080ef2,#05080e80),linear-gradient(0deg,#05080e,transparent 55%),url('hero-car.webp')}
  .hero h1{font-size:clamp(66px,18vw,105px)}.hero-inner{padding-top:55px}.hero-bottom{bottom:20px}.hero-index{display:none}
  section{padding:72px 0}.section-top{display:block}.section-top p{margin-top:15px}
  .division-grid{grid-template-columns:repeat(2,minmax(0,1fr))}

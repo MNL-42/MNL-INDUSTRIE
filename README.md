@@ -1,5 +1,9 @@
 # MNL INDUSTRIE — Maison MNL
 
-Maison de design et d'innovation présentée à travers dix univers : automobile, aérospatiale, numérique, technologies portables, robotique, énergie, systèmes aériens, habitat intelligent, microtechnologie et intelligence artificielle.
+Maison indépendante de design et d'innovation fondée par MANASSE NTAMBWA LUSHIKU, PDG et fondateur.
 
-Le catalogue comprend 36 études de design, avec recherche instantanée, filtres par univers, tri alphabétique, fiches détaillées et favoris locaux. Les références sont des concepts fictifs, non annoncés comme fabriqués, certifiés ou disponibles à l'achat.
+Le site présente des concepts et études visuelles dans les univers mobilité, image, numérique, audio, habitat, énergie, robotique, aéronautique, accessoires et microtechnologie. Les références sont présentées comme des concepts et non comme des produits fabriqués ou disponibles à l'achat.
+
+L'expérience comprend navigation inférieure vitrée, interface responsive, catalogue avec recherche, filtres, favoris, fiches détaillées et animations respectant la préférence de réduction du mouvement.
+
+Portrait du PDG : ajouter le fichier `pdg.png` à la racine du dépôt GitHub.

@@ -1,0 +1,17 @@
+{
+  "name": "MNL Industrie — MNL WORLD",
+  "short_name": "MNL WORLD",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#05080e",
+  "theme_color": "#05080e",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

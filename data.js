@@ -1438,5 +1438,485 @@ window.MNL_PRODUCTS = [
         "Concept virtuel"
       ]
     ]
+  },
+  {
+    "id": "mnl-61",
+    "name": "MNL OPTIMA",
+    "division": "Image & création",
+    "category": "Image & création",
+    "type": "Objectif photo grand angle",
+    "image": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Objectif photo grand angle — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Image & création"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-62",
+    "name": "MNL MOTION",
+    "division": "Image & création",
+    "category": "Image & création",
+    "type": "Caméra cinéma compacte",
+    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Caméra cinéma compacte — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Image & création"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-63",
+    "name": "MNL SNAP",
+    "division": "Image & création",
+    "category": "Image & création",
+    "type": "Appareil photo instantané",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Appareil photo instantané — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Image & création"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-64",
+    "name": "MNL CYCLE PRO",
+    "division": "Mobilité",
+    "category": "Mobilité",
+    "type": "Vélo de performance",
+    "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Vélo de performance — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Mobilité"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-65",
+    "name": "MNL URBAN",
+    "division": "Mobilité",
+    "category": "Mobilité",
+    "type": "Scooter urbain électrique",
+    "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Scooter urbain électrique — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Mobilité"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-66",
+    "name": "MNL AQUA",
+    "division": "Mobilité",
+    "category": "Mobilité",
+    "type": "Bateau de loisirs",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Bateau de loisirs — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Mobilité"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-67",
+    "name": "MNL SONIC",
+    "division": "Audio",
+    "category": "Audio",
+    "type": "Enceinte haute fidélité",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Enceinte haute fidélité — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Audio"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-68",
+    "name": "MNL STAGE",
+    "division": "Audio",
+    "category": "Audio",
+    "type": "Système audio studio",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Système audio studio — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Audio"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-69",
+    "name": "MNL KEYPAD",
+    "division": "Numérique",
+    "category": "Numérique",
+    "type": "Clavier mécanique premium",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Clavier mécanique premium — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Numérique"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-70",
+    "name": "MNL SCREEN",
+    "division": "Numérique",
+    "category": "Numérique",
+    "type": "Écran de création",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acea?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Écran de création — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Numérique"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-71",
+    "name": "MNL PURE",
+    "division": "Habitat intelligent",
+    "category": "Habitat intelligent",
+    "type": "Purificateur d'air",
+    "image": "https://images.unsplash.com/photo-1631545806609-4b4c7a3a8e8d?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Purificateur d'air — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Habitat intelligent"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-72",
+    "name": "MNL KITCHEN",
+    "division": "Habitat intelligent",
+    "category": "Habitat intelligent",
+    "type": "Équipement de cuisine connecté",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Équipement de cuisine connecté — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Habitat intelligent"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-73",
+    "name": "MNL LIGHTFORM",
+    "division": "Design & habitat",
+    "category": "Design & habitat",
+    "type": "Luminaire sculptural",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Luminaire sculptural — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Design & habitat"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-74",
+    "name": "MNL LIVING",
+    "division": "Design & habitat",
+    "category": "Design & habitat",
+    "type": "Fauteuil lounge",
+    "image": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Fauteuil lounge — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Design & habitat"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-75",
+    "name": "MNL WORKSPACE",
+    "division": "Design & habitat",
+    "category": "Design & habitat",
+    "type": "Espace de travail modulaire",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Espace de travail modulaire — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Design & habitat"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-76",
+    "name": "MNL FIELD",
+    "division": "Accessoires",
+    "category": "Accessoires",
+    "type": "Sac de transport technique",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Sac de transport technique — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Accessoires"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-77",
+    "name": "MNL TIMEPIECE",
+    "division": "Accessoires",
+    "category": "Accessoires",
+    "type": "Montre de précision",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Montre de précision — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Accessoires"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-78",
+    "name": "MNL BOTANIC II",
+    "division": "Design & habitat",
+    "category": "Design & habitat",
+    "type": "Jardin intérieur connecté",
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Jardin intérieur connecté — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Design & habitat"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-79",
+    "name": "MNL SOLAR PRO",
+    "division": "Énergie",
+    "category": "Énergie",
+    "type": "Système solaire résidentiel",
+    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Système solaire résidentiel — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Énergie"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
+  },
+  {
+    "id": "mnl-80",
+    "name": "MNL GRID PORTABLE",
+    "division": "Énergie",
+    "category": "Énergie",
+    "type": "Station d'énergie portable",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=88&auto=format&fit=crop",
+    "tag": "Série MNL",
+    "description": "Station d'énergie portable — une proposition de design de la maison MNL, étudiée autour de la matière, de l'usage et de l'expérience quotidienne. Cette référence reste un concept de présentation.",
+    "specs": [
+      [
+        "Univers",
+        "Énergie"
+      ],
+      [
+        "Approche",
+        "Étude de design"
+      ],
+      [
+        "Statut",
+        "Concept virtuel"
+      ]
+    ]
   }
 ];

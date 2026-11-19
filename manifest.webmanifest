@@ -1,14 +1,14 @@
 {
-  "name": "MNL Industrie — MNL WORLD",
-  "short_name": "MNL WORLD",
+  "name": "MNL Industrie — Maison MNL",
+  "short_name": "MNL",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#05080e",
-  "theme_color": "#05080e",
+  "background_color": "#101513",
+  "theme_color": "#101513",
   "lang": "fr",
   "icons": [
     {
-      "src": "assets/icon.svg",
+      "src": "icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

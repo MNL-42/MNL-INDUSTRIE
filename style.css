@@ -21,3 +21,22 @@ footer{padding:30px 0;border-top:1px solid var(--line);background:#0d0d0b;color:
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
 :focus-visible{outline:3px solid #e4cfaa;outline-offset:4px}.skeleton{background:linear-gradient(100deg,#24231e 20%,#343127 38%,#24231e 56%);background-size:200% 100%;animation:mnl-shimmer 1.5s infinite}@keyframes mnl-shimmer{to{background-position-x:-200%}}.detail-layout{display:grid;grid-template-columns:1.1fr .9fr;gap:38px}.detail-layout img{width:100%;border:1px solid var(--line);border-radius:8px}.detail-specs{display:grid;grid-template-columns:1fr 1fr;gap:10px}.detail-specs div{padding:14px;background:var(--surface);border:1px solid var(--line)}.page-hero{padding:145px 0 65px;background:radial-gradient(ellipse at 75% 10%,#c8a87922,transparent 50%),#11110f}.form-grid{display:grid;gap:14px;max-width:680px}.form-grid label{display:grid;gap:7px;color:var(--gold2)}.form-grid input,.form-grid textarea{padding:13px;border:1px solid var(--line);background:#191916;color:var(--ink)}.form-grid textarea{min-height:140px}@media(max-width:700px){.detail-layout{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+
+
+/* MNL 3D / mouvement éditorial */
+.hero{isolation:isolate}
+.hero-3d{position:absolute;inset:8% 2% 4% 38%;z-index:0;min-height:60vh;pointer-events:none;opacity:.9;mask-image:linear-gradient(90deg,transparent 0%,#000 22%,#000 82%,transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 22%,#000 82%,transparent 100%)}
+.hero-3d canvas,.product-3d canvas{width:100%;height:100%}
+.hero-vignette{z-index:1}
+.hero-inner,.hero-caption{position:relative;z-index:2}
+.product-3d{position:relative;width:100%;height:380px;overflow:hidden;border:1px solid #7fa4ff38;border-radius:8px;background:radial-gradient(ellipse at 50% 65%,#18366b55,transparent 62%),linear-gradient(145deg,#0c1426,#080c16 70%);box-shadow:inset 0 0 45px #315fbd18}
+.product-3d:after{content:"MNL · HOLOGRAPHIC STUDY";position:absolute;left:16px;bottom:13px;color:#a8c0ff;font-size:8px;letter-spacing:.2em;pointer-events:none}
+#product3d+img[hidden]{display:none}
+body:after{content:"";position:fixed;inset:-25%;z-index:-2;pointer-events:none;background:radial-gradient(ellipse at 18% 22%,#1748a522,transparent 38%),radial-gradient(ellipse at 82% 68%,#2866c51a,transparent 42%);animation:mnl-blue-drift 22s ease-in-out infinite alternate}
+@keyframes mnl-blue-drift{from{transform:translate3d(-1.5%,0,0) scale(1)}to{transform:translate3d(1.5%,-1%,0) scale(1.05)}}
+.reveal{transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.product,.division,.editorial-tile{will-change:transform}
+.product:hover{box-shadow:0 24px 60px #0008,0 0 0 1px #8eb4ff18}
+.empty{display:none}
+@media(max-width:700px){.hero-3d{inset:18% -24% 5% 18%;opacity:.55;mask-image:linear-gradient(90deg,transparent,#000 25%,#000 85%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 25%,#000 85%,transparent)}.hero-inner{z-index:2}.product-3d{height:340px}}
+@media(prefers-reduced-motion:reduce){body:after{animation:none}.reveal{opacity:1;transform:none;transition:none}.product,.division,.editorial-tile{transition:none}.hero-3d canvas{animation:none}}

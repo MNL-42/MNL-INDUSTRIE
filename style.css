@@ -99,7 +99,6 @@ body{opacity:1;transition:opacity .16s ease}body.page-leaving{opacity:0;transiti
 @media(max-width:620px){.hero-inner.container{width:100%;max-width:none;margin-left:0;margin-right:0;padding-left:20px;padding-right:20px}.hero-inner .eyebrow,.hero-inner h1,.hero-inner .hero-tagline,.hero-inner>p,.hero-inner .buttons{max-width:calc(100vw - 40px)}}
 
 /* MNL INDUSTRIE — palette industrielle et système de mouvement */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
 :root{color-scheme:dark;--bg:#0B0D10;--surface:#14181D;--line:#2A313A;--muted:#9AA4B2;--text:#F2F4F7;--accent:#FF5A1F;--glow:#38BDF8;--ink:var(--text);--surface2:#1b222a;--gold:var(--accent);--gold2:#ff8658;--ease:cubic-bezier(.2,.7,.2,1)}
 html,body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}body:before{opacity:.16;background-image:linear-gradient(135deg,#2A313A55 1px,transparent 1px),linear-gradient(45deg,#2A313A33 1px,transparent 1px);background-size:42px 42px,42px 42px}
 h1,h2,h3,.logo,.product-info h3,.division h3,.modal-content h2,.manifesto h2,.section-top h2,.hero-stats b{font-family:'Barlow Condensed',Impact,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.015em}

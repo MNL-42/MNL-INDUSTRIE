@@ -204,3 +204,32 @@ body{background:#090a0d;font-family:Inter,system-ui,sans-serif}
 }
 @media(min-width:701px) and (max-width:950px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{min-height:620px}}
 @media(prefers-reduced-motion:reduce){.mnl-mobile-nav,.product,.product-image img,.category-track{scroll-behavior:auto;transition:none!important}}
+
+/* MNL ANDROID — dark glass + warm champagne lighting */
+:root{--bg:#090a0d;--surface:#14161b;--surface2:#1b1e24;--line:rgba(218,188,137,.24);--ink:#f5f3ef;--muted:#a9a7a2;--gold:#d5ad70;--gold2:#f1d5a2;--max:1440px}
+body{background:#090a0d;font-family:Inter,system-ui,sans-serif}
+.site-header{background:rgba(8,10,14,.76);border-bottom:1px solid #ffffff18;backdrop-filter:blur(24px) saturate(145%)}
+.nav{height:76px}.logo-mark{border-radius:50%;background:linear-gradient(145deg,#f4dfb7,#9e7541);color:#17120c;box-shadow:0 0 26px #d4aa6740}
+.hero{height:min(760px,88svh);min-height:590px;background:#101116}
+.hero-bg{background-image:linear-gradient(90deg,rgba(7,9,13,.92),rgba(7,9,13,.64) 35%,rgba(7,9,13,.06) 78%),linear-gradient(0deg,#090a0d 0%,transparent 32%),url('hero-car.webp');background-position:center 56%;filter:saturate(.9)}
+.hero h1{font-family:Inter,sans-serif;letter-spacing:-.065em}.hero h1 span{background:linear-gradient(100deg,#fff 20%,#f2d7a5 75%);background-clip:text;-webkit-background-clip:text;color:transparent}.hero-tagline{color:#f1d5a2}
+.btn{border-radius:999px;letter-spacing:.025em;font-size:11px}.btn.primary{background:linear-gradient(110deg,#fff4df,#d7ad70);color:#15110b;box-shadow:0 8px 32px #d6aa7040}
+.category-band{background:rgba(18,20,25,.82);border-block-color:#ffffff20}.category-track{gap:9px;padding:12px 0}.category-track a{min-width:105px;padding:13px 12px;border:1px solid #ffffff12;border-radius:17px;background:linear-gradient(145deg,#ffffff10,#ffffff03);color:#f2d5a1;box-shadow:inset 0 1px #ffffff13,0 8px 24px #0003}.category-track a span{color:#f3f1ed;font-size:10px}.category-track a:first-child{border-color:#d8b77d;background:linear-gradient(145deg,#d6b47b36,#ffffff09);box-shadow:0 0 24px #d6b47b26}
+.featured{background:linear-gradient(180deg,#111319,#090a0d)}.section-top h2{font-family:Inter,sans-serif;letter-spacing:-.045em}
+.product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.product{border-radius:18px;border-color:#ffffff24;background:linear-gradient(145deg,#20232b,#101217);box-shadow:0 12px 30px #0005,inset 0 1px #ffffff16}.product-image{height:230px;background:#171a21}.product-info{padding:15px 16px 16px}.product-info h3{font-family:Inter,sans-serif}.product-info small,.concept{color:#e0bd83}.favorite{border-radius:50%;backdrop-filter:blur(12px)}.editorial-tile,.division,.modal-box{border-radius:18px}.keynote-panel,.division{background:linear-gradient(145deg,#1c2028dd,#101217dd);border-color:#ffffff22;backdrop-filter:blur(18px)}#scrollProgress{background:linear-gradient(90deg,#9d7442,#f3d6a2)}
+.mnl-mobile-nav{display:none}
+@media(max-width:700px){
+ html{scroll-padding-top:72px}.container{width:calc(100% - 28px)}.site-header{height:66px}.nav{height:66px;gap:10px}.logo{font-size:17px;gap:8px}.logo-mark{width:36px;height:36px;font-size:23px}.hamb{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:#ffffff0b;border-color:#ffffff25}
+ .navlinks{top:66px;left:14px;right:14px;border-radius:18px;background:rgba(12,14,19,.96);backdrop-filter:blur(24px);box-shadow:0 20px 55px #0009}
+ .hero{height:auto;min-height:660px;padding:95px 0 46px;align-items:flex-end}.hero-bg{background-position:58% center;background-image:linear-gradient(90deg,#080a0edb,#080a0e65 70%,#080a0e30),linear-gradient(0deg,#090a0d 0%,transparent 62%),url('hero-car.webp')}.hero-inner{padding-top:30px}.eyebrow{font-size:9px;letter-spacing:.15em}.hero h1{font-size:clamp(43px,12vw,66px);line-height:.98;margin:18px 0 12px;letter-spacing:-.07em}.hero-tagline{font-size:16px;line-height:1.35}.hero p{font-size:12px;line-height:1.7;max-width:340px}.buttons{gap:10px;margin-top:20px}.btn{min-height:46px;padding:0 17px;font-size:9px}.hero-caption{display:none}
+ .category-band{overflow:hidden}.category-track{justify-content:flex-start;overflow-x:auto;scroll-snap-type:x mandatory;padding:12px 14px}.category-track a{min-width:94px;scroll-snap-align:start;padding:12px 8px;border-radius:15px}
+ section{padding:54px 0}.section-top{display:block;margin-bottom:20px}.section-top h2{font-size:32px}.section-top p{margin-top:10px;font-size:11px}
+ .product-grid{display:flex;overflow-x:auto;gap:12px;padding:2px 14px 16px;margin-inline:-14px;scroll-snap-type:x mandatory;scrollbar-width:none}.product-grid::-webkit-scrollbar{display:none}.product{flex:0 0 min(78vw,310px);scroll-snap-align:start}.product-image{height:190px}.product-info{padding:13px}.product-info h3{font-size:17px}.product-info p{font-size:10px;min-height:30px}
+ .editorial-gallery{grid-template-columns:1fr 1fr;grid-auto-rows:150px;gap:9px}.editorial-tile.tile-1{grid-row:span 2}.editorial-meta{left:12px;right:12px;bottom:12px}.editorial-meta b{font-size:15px}.manifesto{grid-template-columns:1fr;gap:24px}.manifesto h2{font-size:39px}.principles{padding-left:17px}
+ .division-grid{grid-template-columns:1fr 1fr;gap:9px}.division{padding:15px;min-height:185px}.division h3{font-size:16px}.foot{flex-direction:column;align-items:flex-start;gap:12px;padding-bottom:72px}
+ .modal{padding:10px}.modal-box{grid-template-columns:1fr;max-height:84svh;border-radius:18px}.modal-img{min-height:220px;height:230px}.modal-content{padding:22px}.specs{grid-template-columns:1fr 1fr}
+ .mnl-mobile-nav{position:fixed;display:flex;z-index:180;left:12px;right:12px;bottom:max(10px,env(safe-area-inset-bottom));height:64px;align-items:center;justify-content:space-around;padding:6px 8px;border:1px solid #ffffff28;border-radius:21px;background:rgba(18,20,26,.84);backdrop-filter:blur(24px) saturate(160%);box-shadow:0 12px 42px #0009,inset 0 1px #ffffff24}
+ .mnl-mobile-nav a{min-width:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;color:#d8d9dc;font-size:9px}.mnl-mobile-nav a span:first-child{font-size:18px;line-height:1.1}.mnl-mobile-nav a.active{color:#f1cf91}body{padding-bottom:78px}#scrollProgress{height:3px}
+}
+@media(min-width:701px) and (max-width:950px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{min-height:620px}}
+@media(prefers-reduced-motion:reduce){.mnl-mobile-nav,.product,.product-image img,.category-track{scroll-behavior:auto;transition:none!important}}

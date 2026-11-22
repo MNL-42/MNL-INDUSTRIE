@@ -10,16 +10,21 @@ function productVisual(p,i){
  const media={
   robot:'https://images.pexels.com/photos/35280311/pexels-photo-35280311.jpeg?auto=compress&cs=tinysrgb&w=1200',
   digital:'https://images.pexels.com/photos/20692999/pexels-photo-20692999.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  smartphone:'https://images.pexels.com/photos/11216318/pexels-photo-11216318.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  energy:'https://images.pexels.com/photos/35105466/pexels-photo-35105466.jpeg?auto=compress&cs=tinysrgb&w=1200',
   audio:'https://images.pexels.com/photos/9204671/pexels-photo-9204671.jpeg?auto=compress&cs=tinysrgb&w=1200',
   headphones:'https://images.pexels.com/photos/9154412/pexels-photo-9154412.jpeg?auto=compress&cs=tinysrgb&w=1200'
  };
- const id=String(p.id||'');
- if(id==='mnl-19'||String(p.division).toLowerCase().includes('robot'))return media.robot;
+ const id=String(p.id||''),d=String(p.division||'').toLowerCase();
+ if(id==='mnl-19'||d.includes('robot'))return media.robot;
  if(id==='mnl-14')return media.audio;
- if(id==='mnl-13'||String(p.division).toLowerCase().includes('audio'))return media.headphones;
- if(id==='mnl-9'||String(p.division).toLowerCase().includes('numérique'))return media.digital;
- if(String(p.division).toLowerCase().includes('aéro'))return media.robot;
- if(String(p.division).toLowerCase().includes('mobilité'))return 'apex-car.webp';
+ if(id==='mnl-13'||d.includes('audio')||d.includes('image'))return media.headphones;
+ if(id==='mnl-9')return media.smartphone;
+ if(d.includes('numérique'))return media.digital;
+ if(d.includes('énergie'))return media.energy;
+ if(d.includes('aéro'))return 'aerion-jet.webp';
+ if(d.includes('mobilité'))return 'apex-car.webp';
+ if(d.includes('habitat'))return media.digital;
  return p.image||media.digital;
 }
 function productCard(p,i){const visual=productVisual(p,i);return '<article class="product reveal" data-id="'+esc(p.id)+'"><div class="product-image"><img src="'+esc(visual)+'" alt="'+esc(p.name)+' — visuel éditorial" loading="lazy"><span class="product-number">MNL / '+String(i+1).padStart(2,'0')+'</span><button class="favorite '+(fav.has(p.id)?'is-favorite':'')+'" data-fav="'+esc(p.id)+'" aria-label="Ajouter aux favoris">'+(fav.has(p.id)?'♥':'♡')+'</button><span class="product-view">VOIR LA FICHE <b>↗</b></span></div><div class="product-info"><small>'+esc(p.division)+' · '+esc(p.tag)+'</small><h3>'+esc(p.name)+'</h3><p>'+esc(p.type)+'</p><div class="product-bottom"><span class="concept">ÉTUDE DE CONCEPT</span><span class="arrow">↗</span></div></div></article>';}
